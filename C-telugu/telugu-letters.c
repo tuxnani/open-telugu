@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2007 Muthiah Annamalai <gnumuthu@users.sf.net>
+ * Copyright (C) 2014 Rahimanuddin Shaik <nani1only@gmail.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,15 +16,15 @@
  * Foundation, Inc.,  51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-#include "tamil-letters.h"
+#include "telugu-letters.h"
 
-#define TAMIL_SANSKRIT_LETTERS_SORTED_SIZE \
-	(sizeof(TamilSanskrit_Letters_Sorted)/sizeof(TamilSanskrit_Letters_Sorted[0]))
+#define TELUGU_SANSKRIT_LETTERS_SORTED_SIZE \
+	(sizeof(TeluguSanskrit_Letters_Sorted)/sizeof(TeluguSanskrit_Letters_Sorted[0]))
 
 
 /* 12 உயிர் எழுத்து : #define'd above TA_UYIR_LEN 12   */
-const char *Tamil_uyir_letters[]={"அ","ஆ","இ",
-	"ஈ","உ","ஊ","எ","ஏ","ஐ","ஒ","ஓ","ஔ"};
+const char *Tamil_uyir_letters[]={"అ","ఆ","ఇ",
+	"ఈ","ఉ","ఊ","ఋ","ౠ","ఌ","","ஏ","ஐ","ஒ","ஓ","ஔ"};
 
 /* 1 ஆயுத எழுத்து : #define'd above TA_AYUDHA_LEN 1 */
 const char *Tamil_ayudha_letter="ஃ";
