@@ -17,7 +17,7 @@
 #	౯ - 9
 #	౦ - 0
 
-class Normalizer:
+class TeluguNormalizer:
   """
   This class provides functionality to replace old type letters with new letters in a given string.
   """
@@ -50,7 +50,7 @@ class Normalizer:
     return new_text
 
 # Example usage
-normalizer = Normalizer({
+normalizer = TeluguNormalizer({
   'ఱ': 'ర',  # Replace 'ఱ' with 'ర'
   'ఁ': '',  # Replace అరసున్నా with పూర్తి సున్నా
   '౦': '0',
